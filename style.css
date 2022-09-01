@@ -1,0 +1,30 @@
+header {
+  display: flex;
+  flex-direction: column;
+  height: 100px;
+  width: 400px;
+}
+
+header h3 {
+  text-align: center;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 400px;
+  background-color: blue;
+  margin-top: 50px;
+}
+
+#main input {
+  margin-top: 5px;
+  background-color: beige;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
